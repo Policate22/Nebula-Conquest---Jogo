@@ -480,76 +480,108 @@
         </div>
     </section>
 
-    <!-- Seção de Personagens -->
-    <section id="characters" class="py-20 px-6 relative z-10 bg-dark-purple">
-        <div class="container mx-auto">
-            <h2 class="text-4xl font-bold mb-16 text-center text-neon-pink animate-text-glow">
-                <span class="text-stroke">COMANDANTES</span> LENDÁRIOS
-            </h2>
+    <!-- Seção de Personagens (parte atualizada) -->
+<section id="characters" class="py-20 px-6 relative z-10 bg-dark-purple">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-16 text-center text-neon-pink animate-text-glow">
+            <span class="text-stroke">COMANDANTES</span> LENDÁRIOS
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Personagem 1 - Comandante Zara -->
+            <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
+                <div class="overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80" alt="Comandante Zara" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4">
+                        <div class="bg-neon-blue/20 backdrop-blur-sm rounded-lg p-2">
+                            <h3 class="text-2xl font-bold text-neon-yellow">ZARA XEL'NAGA</h3>
+                            <p class="text-gray-300 text-sm">Especialista em tecnologia exótica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-sm text-neon-blue">
+                            <span class="inline-block w-3 h-3 bg-neon-blue rounded-full mr-2 animate-pulse"></span>
+                            DISPONÍVEL
+                        </div>
+                        <span class="text-xs bg-neon-pink/20 text-neon-pink px-2 py-1 rounded">NÍVEL 42</span>
+                    </div>
+                </div>
+            </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Personagem 1 -->
-                <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
-                    <div class="overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Comandante Zara" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2 text-neon-yellow">ZARA XEL'NAGA</h3>
-                        <p class="text-gray-300 mb-4">Especialista em tecnologia exótica e armas experimentais.</p>
-                        <div class="flex items-center text-sm text-neon-blue">
-                            <span class="inline-block w-3 h-3 bg-neon-blue rounded-full mr-2 animate-pulse"></span>
-                            DISPONÍVEL AGORA
+            <!-- Personagem 2 - Almirante Kael -->
+            <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
+                <div class="overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Almirante Kael" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900/70 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4">
+                        <div class="bg-neon-blue/20 backdrop-blur-sm rounded-lg p-2">
+                            <h3 class="text-2xl font-bold text-neon-yellow">ALMIRANTE KAEL</h3>
+                            <p class="text-gray-300 text-sm">Estrategista militar implacável</p>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Personagem 2 -->
-                <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
-                    <div class="overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Almirante Kael" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2 text-neon-yellow">ALMIRANTE KAEL</h3>
-                        <p class="text-gray-300 mb-4">Estrategista militar com táticas de combate implacáveis.</p>
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
                         <div class="flex items-center text-sm text-neon-blue">
                             <span class="inline-block w-3 h-3 bg-neon-blue rounded-full mr-2 animate-pulse"></span>
-                            DISPONÍVEL AGORA
+                            DISPONÍVEL
+                        </div>
+                        <span class="text-xs bg-neon-pink/20 text-neon-pink px-2 py-1 rounded">NÍVEL 38</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Personagem 3 - Rainha Lyra -->
+            <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
+                <div class="overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1588&q=80" alt="Rainha Lyra" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-pink-900/70 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4">
+                        <div class="bg-neon-blue/20 backdrop-blur-sm rounded-lg p-2">
+                            <h3 class="text-2xl font-bold text-neon-yellow">RAINHA LYRA</h3>
+                            <p class="text-gray-300 text-sm">Mestra da diplomacia interestelar</p>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Personagem 3 -->
-                <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
-                    <div class="overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Rainha Lyra" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2 text-neon-yellow">RAINHA LYRA</h3>
-                        <p class="text-gray-300 mb-4">Mestra da diplomacia e manipulação política.</p>
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
                         <div class="flex items-center text-sm text-neon-blue">
                             <span class="inline-block w-3 h-3 bg-neon-blue rounded-full mr-2 animate-pulse"></span>
-                            DISPONÍVEL AGORA
+                            DISPONÍVEL
+                        </div>
+                        <span class="text-xs bg-neon-pink/20 text-neon-pink px-2 py-1 rounded">NÍVEL 45</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Personagem 4 - O Exilado -->
+            <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
+                <div class="overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="O Exilado" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-4">
+                        <div class="bg-neon-blue/20 backdrop-blur-sm rounded-lg p-2">
+                            <h3 class="text-2xl font-bold text-neon-yellow">O EXILADO</h3>
+                            <p class="text-gray-300 text-sm">Mercenário com passado misterioso</p>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Personagem 4 -->
-                <div class="character-card group relative overflow-hidden rounded-xl border-2 border-neon-blue/30 bg-space-blue/50 backdrop-blur-sm">
-                    <div class="overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="O Exilado" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2 text-neon-yellow">O EXILADO</h3>
-                        <p class="text-gray-300 mb-4">Mercenário interestelar com um passado misterioso.</p>
+                <div class="p-4">
+                    <div class="flex justify-between items-center">
                         <div class="flex items-center text-sm text-neon-blue">
                             <span class="inline-block w-3 h-3 bg-neon-blue rounded-full mr-2 animate-pulse"></span>
-                            DISPONÍVEL AGORA
+                            DISPONÍVEL
                         </div>
+                        <span class="text-xs bg-neon-pink/20 text-neon-pink px-2 py-1 rounded">NÍVEL 50</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Seção de Depoimentos -->
     <section class="py-20 px-6 relative z-10 bg-gradient-to-b from-dark-purple to-space-blue">
